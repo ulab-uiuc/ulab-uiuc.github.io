@@ -3,22 +3,10 @@ const about =
 
 const highlights = [
   {
-    title: "LLM Quantization",
+    title: "Accelerating Scientific Discovery",
     description:
-      "**Enabling on-device LLM inference** with advanced quantization techniques like [AWQ](/publications/yu2024researchtown), TinyChat, SmoothQuant, and COAT for improved efficiency and performance.",
+      "**Multi-Agent Systems** like [ResearchTown](/publications/yu2024researchtown).",
     projects: ["ResearchTown", "GraphRouter"],
-  },
-  {
-    title: "Long Context LLM",
-    description:
-      "Developing methods to generate infinite-length texts with fixed memory budgets, including StreamingLLM, Quest, DuoAttention, and LServe.",
-    projects: [],
-  },
-  {
-    title: "Efficient Visual Generation",
-    description:
-      "Advanced visual generation models like HART, SANA, SVDQuant for high-quality image synthesis under computational constraints.",
-    projects: [],
   },
 ];
 
