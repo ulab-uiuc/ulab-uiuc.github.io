@@ -47,31 +47,31 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto">
           <NavLink
-            href={process.env.PUBLIC_URL + "/about"}
+            href={process.env.PUBLIC_URL + "/#/about"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             About
           </NavLink>
           <NavLink
-            href={process.env.PUBLIC_URL + "/people"}
+            href={process.env.PUBLIC_URL + "/#/people"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             People
           </NavLink>
           <NavLink
-            href={process.env.PUBLIC_URL + "/publications"}
+            href={process.env.PUBLIC_URL + "/#/publications"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Publications
           </NavLink>
           <NavLink
-            href={process.env.PUBLIC_URL + "/courses"}
+            href={process.env.PUBLIC_URL + "/#/courses"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Courses
           </NavLink>
           <NavLink
-            href={process.env.PUBLIC_URL + "/gallery"}
+            href={process.env.PUBLIC_URL + "/#/gallery"}
             className={`${!isTop ? "brand" : "brand-white"}`}
           >
             Gallery

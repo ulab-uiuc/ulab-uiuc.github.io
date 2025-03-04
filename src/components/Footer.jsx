@@ -8,6 +8,7 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
         {props.children}
+        <br />
         Copyright © U Lab@UIUC
         <p>
           <small className="text-muted">

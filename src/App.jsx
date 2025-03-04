@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter, Route, Routes, useLocation } from "react-router-dom";
 
 import MainBody from "./components/MainBody.jsx";
 import Footer from "./components/Footer.jsx";
@@ -39,7 +39,7 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL || "/"}>
+    <HashRouter>
       <Navbar ref={titleRef} />
       <Routes>
         <Route path="/" element={<Home ref={titleRef} />} />
@@ -56,7 +56,7 @@ const App = () => {
       <Footer>
         <GetInTouch />
       </Footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
