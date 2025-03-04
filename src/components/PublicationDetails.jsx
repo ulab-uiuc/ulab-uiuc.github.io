@@ -76,7 +76,7 @@ const PublicationDetails = React.forwardRef((props, ref) => {
 
     importMarkdownFile();
     importBibFile();
-  }, []);
+  }, [publication.files.bib, publication.files.markdown]);
 
   const imageContext = require.context(
     "../assets/publications/yu2024researchtown/",
@@ -347,6 +347,7 @@ const PublicationDetails = React.forwardRef((props, ref) => {
               <Card>
                 <Ratio aspectRatio="16x9">
                   <iframe
+                    title="publication-video"
                     src={publication.links.video}
                     allowFullScreen
                     frameBorder="0"

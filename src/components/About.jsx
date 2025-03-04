@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { about, highlights, news, impacts } from "../config/About";
-import { useNavigate } from "react-router-dom";
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -11,6 +10,7 @@ const LocationMap = () => {
     <Card className="w-full max-w-4xl">
       <div className="w-full h-96">
         <iframe
+          title="google-map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.4890985135537!2d-88.22755822359845!3d40.10510637933033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd756e540a58d%3A0x10ecb5bb108fd52a!2sUniversity%20of%20Illinois%20Computer%20Science%20Department!5e0!3m2!1sen!2sus!4v1709574789123!5m2!1sen!2sus"
           width="100%"
           height="100%"
@@ -26,7 +26,6 @@ const LocationMap = () => {
 };
 
 const About = React.forwardRef((props, ref) => {
-  const navigate = useNavigate();
   return (
     <div
       style={{
