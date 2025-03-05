@@ -5,7 +5,7 @@ const highlights = [
   {
     title: "Accelerating Scientific Discovery",
     description:
-      "**Multi-Agent Systems** like [ResearchTown](/publications/yu2024researchtown).",
+      "**Multi-Agent Systems** like [ResearchTown](/#/publications/yu2024researchtown).",
     projects: ["ResearchTown", "GraphRouter"],
   },
 ];

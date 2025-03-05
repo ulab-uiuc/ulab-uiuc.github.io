@@ -33,7 +33,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --repo https://x-access-token:${GITHUB_TOKEN}@github.com/ulab-uiuc/ulab-uiuc.github.io.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

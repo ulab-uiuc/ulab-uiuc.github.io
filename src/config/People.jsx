@@ -27,11 +27,6 @@ const phd_students = [
 
 const ms_students = [
   {
-    name: "Zirui Cheng",
-    img: require("../assets/people/ZiruiCheng.jpg"),
-    link: "https://chengzr01.github.io/",
-  },
-  {
     name: "Zhaochen Hong",
   },
   {
@@ -42,6 +37,11 @@ const ms_students = [
   },
   {
     name: "Kunlun Zhu",
+  },
+  {
+    name: "Zirui Cheng",
+    img: require("../assets/people/ZiruiCheng.jpg"),
+    link: "https://chengzr01.github.io/",
   },
 ];
 
