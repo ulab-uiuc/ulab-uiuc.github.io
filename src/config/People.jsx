@@ -28,7 +28,7 @@ const phd_students = [
 const ms_students = [
   {
     name: "Zhaochen Hong",
-    img: require("../assets/people/ZhaochenHong.jpg"),
+    img: require("../assets/people/ZhaochenHong.jpeg"),
   },
   {
     name: "Yexin Wu",
