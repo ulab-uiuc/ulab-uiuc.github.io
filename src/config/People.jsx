@@ -39,6 +39,8 @@ const ms_students = [
   },
   {
     name: "Kunlun Zhu",
+    img: require("../assets/people/KunlunZhu.jpeg"),
+    link: "https://kunlun-zhu.github.io/",
   },
   {
     name: "Zirui Cheng",
