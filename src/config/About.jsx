@@ -23,6 +23,6 @@ const news = [
 ];
 
 const impacts =
-  " We actively collaborate with industry partners including Amazon and Meta.";
+  "We actively collaborate with industry partners including Amazon and Meta.";
 
 export { about, highlights, news, impacts };

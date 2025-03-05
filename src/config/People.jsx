@@ -67,7 +67,7 @@ const alumni = [
     name: "Guanyu Lin",
     link: "https://guanyu-lin.github.io/",
     description: "Ph.D student at Carnegie Mellon University",
-    placement: "at TikTok",
+    placement: "at ?",
   },
 ];
 

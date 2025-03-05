@@ -24,7 +24,7 @@ const publications = [
       paper: "https://arxiv.org/abs/2412.17767",
       code: "https://github.com/ulab-uiuc/research-town",
       thread: "https://x.com/youjiaxuan/status/1840767158868918639",
-      contact: "mailto:jiaxuan4@illinois.edu",
+      contact: "mailto:jiaxuan@illinois.edu",
       video: "https://www.youtube.com/embed/Yz-r7KGXbyM",
     },
     files: {
