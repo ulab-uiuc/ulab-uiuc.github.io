@@ -19,12 +19,12 @@ const phd_students = [
   {
     name: "Yanru Qu",
     img: require("../assets/people/YanruQu.jpg"),
-    description: "coadvised w/ [Prof. Ge Liu](https://www.mit.edu/~geliu/)",
+    description: "Coadvised w/ [Prof. Ge Liu](https://www.mit.edu/~geliu/)",
   },
   {
     name: "Haofei Yu",
     img: require("../assets/people/HaofeiYu.jpg"),
-    link: "https://haofeiyu.me"
+    link: "https://haofeiyu.me",
   },
 ];
 
@@ -74,7 +74,7 @@ const alumni = [
     name: "Guanyu Lin",
     link: "https://guanyu-lin.github.io/",
     description: "Ph.D student at Carnegie Mellon University",
-    placement: "at ?",
+    placement: "",
   },
 ];
 
