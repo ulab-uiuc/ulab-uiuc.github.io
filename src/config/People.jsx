@@ -13,6 +13,7 @@ const phd_students = [
   {
     name: "Peixuan Han",
     img: require("../assets/people/PeixuanHan.jpg"),
+    link: "https://hanpx20.github.io/",
     description: "Rotating Student",
   },
   {
