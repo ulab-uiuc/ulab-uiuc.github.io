@@ -24,6 +24,7 @@ const phd_students = [
   {
     name: "Haofei Yu",
     img: require("../assets/people/HaofeiYu.jpg"),
+    link: "https://haofeiyu.me"
   },
 ];
 
