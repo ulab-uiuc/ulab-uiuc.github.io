@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8ecc5890.css",
-    "main.js": "/static/js/main.fc45600b.js",
+    "main.js": "/static/js/main.9f7fc1b6.js",
     "static/js/787.1208c4b5.chunk.js": "/static/js/787.1208c4b5.chunk.js",
     "static/media/PeixuanHan.jpg": "/static/media/PeixuanHan.eae2ca8a07c9248dbe07.jpg",
     "static/media/ZiruiCheng.jpg": "/static/media/ZiruiCheng.d9c6e6bbde77fc923c34.jpg",
@@ -17,17 +17,17 @@
     "static/media/JinweiYao.jpg": "/static/media/JinweiYao.0d7b32ec3a957a359705.jpg",
     "static/media/ZhaochenHong.jpeg": "/static/media/ZhaochenHong.9959c8a8583fc1e8a66b.jpeg",
     "static/media/MatteoBoffa.jpeg": "/static/media/MatteoBoffa.1d6f275f7b6dc919acb6.jpeg",
-    "static/media/deft.md": "/static/media/deft.2e9ccecf7e9fb2a915d0.md",
+    "static/media/deft.md": "/static/media/deft.45a87c5ebb61da87b72b.md",
     "static/media/graphrouter.md": "/static/media/graphrouter.1c04172b2f9dbdb1a798.md",
     "static/media/researchtown.md": "/static/media/researchtown.06422f19e5526c6475c1.md",
     "index.html": "/index.html",
     "static/media/researchtown.bib": "/static/media/researchtown.f7e72175a3f475d8ef03.bib",
     "main.8ecc5890.css.map": "/static/css/main.8ecc5890.css.map",
-    "main.fc45600b.js.map": "/static/js/main.fc45600b.js.map",
+    "main.9f7fc1b6.js.map": "/static/js/main.9f7fc1b6.js.map",
     "787.1208c4b5.chunk.js.map": "/static/js/787.1208c4b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ecc5890.css",
-    "static/js/main.fc45600b.js"
+    "static/js/main.9f7fc1b6.js"
   ]
 }
