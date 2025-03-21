@@ -17,6 +17,22 @@ const publications = [
     tags: ["LLM", "Agent"],
   },
   {
+    key: "yao2024deft",
+    title: "DeFT: Decoding with Flash Tree-attention for Efficient Tree-structured LLM Inference",
+    authors: "Jinwei Yao, Kaiqi Chen, Kexun Zhang, Jiaxuan You, Binhang Yuan, Zeke Wang, Tao Lin",
+    year: "2025",
+    links: {
+      paper: "https://arxiv.org/abs/2404.00242",
+      code: "https://github.com/LINs-lab/DeFT",
+      contact:"jinwei.yao1114@gmail.com"
+    },
+    files: {
+      markdown: require("../assets/publications/yao2024deft/deft.md"),
+    },
+    venue: "ICLR 2025",
+    tags: ["LLM", "Inference","Efficiency"],
+  },
+  {
     key: "feng2024graphrouter",
     title: "Graphrouter: A graph-based router for llm selections",
     authors: "Tao Feng, Yanzhen Shen, Jiaxuan You",
