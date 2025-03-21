@@ -17,14 +17,25 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import rehypeSanitize from "rehype-sanitize";
+import { defaultSchema } from "rehype-sanitize";
 import remarkBreaks from "remark-breaks";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { coy as codeStyle } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import { publications } from "../config/Publications";
 
+import { getImage } from "../utils/ImageLoader";
+
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+
+const customSchema = {
+  ...defaultSchema,
+  attributes: {
+    ...defaultSchema.attributes,
+    img: [...(defaultSchema.attributes.img || []), ["style"]],
+  },
+};
 
 const PublicationDetails = React.forwardRef((props, ref) => {
   const { publicationName } = useParams();
@@ -78,34 +89,50 @@ const PublicationDetails = React.forwardRef((props, ref) => {
     importBibFile();
   }, [publication.files.bib, publication.files.markdown]);
 
-  const imageContext = require.context(
-    "../assets/publications/yu2024researchtown/",
-    false,
-    /\.(png|jpe?g|gif|svg|pdf)$/
-  );
+  const parseTitleAttributes = (title = "") => {
+    const attrs = {};
+    const parts = title.split(/\s+/);
+    parts.forEach((pair) => {
+      const [key, value] = pair.split("=");
+      if (key && value) {
+        attrs[key] = isNaN(value) ? value : Number(value);
+      }
+    });
+    return attrs;
+  };
 
-  const ImageRendererWithContext = ({ src, alt, title }) => {
-    try {
-      const localImageSrc = imageContext(`${src}`);
+  const ImageRenderer = ({ src = "", alt = "", title = "", pub }) => {
+    const imageSrc = getImage(pub, src);
+    const styleAttrs = parseTitleAttributes(title);
+
+    if (!imageSrc) {
       return (
         <Figure className="text-center">
-          <img
-            src={localImageSrc}
-            alt={alt}
-            className="markdown-image"
-            style={{ maxWidth: "100%", height: "auto" }}
-          />
-          {title && (
-            <Figure.Caption>
-              <i>{title}</i>
-            </Figure.Caption>
-          )}
+          <div style={{ padding: "1em", color: "red" }}>
+            Image Not Found
+            <code>
+              {pub}/{src}
+            </code>
+          </div>
         </Figure>
       );
-    } catch (err) {
-      console.error(`Error loading image with context: ${src}`, err);
-      return <span>Image not found: {src}</span>;
     }
+
+    return (
+      <Figure className="text-center">
+        <img
+          src={imageSrc}
+          alt={alt}
+          className="markdown-image"
+          style={{ maxWidth: "100%", height: "auto", ...styleAttrs }}
+        />
+        {title && (
+          <Figure.Caption>
+            <i>{title}</i>
+          </Figure.Caption>
+        )}
+      </Figure>
+    );
   };
 
   const TableRenderer = ({ children }) => (
@@ -326,10 +353,12 @@ const PublicationDetails = React.forwardRef((props, ref) => {
             ]}
             rehypePlugins={[
               rehypeRaw, // Allows HTML in markdown
-              rehypeSanitize, // Sanitizes HTML to prevent XSS
+              [rehypeSanitize, customSchema], // Sanitizes HTML to prevent XSS
             ]}
             components={{
-              img: ImageRendererWithContext,
+              img: (props) => (
+                <ImageRenderer {...props} pub={publication.key} />
+              ),
               table: TableRenderer,
               code: CodeRenderer,
             }}
