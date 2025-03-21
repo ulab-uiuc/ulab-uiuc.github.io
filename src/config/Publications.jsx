@@ -1,5 +1,22 @@
 const publications = [
   {
+    key: "zhu2025multiagentbenchevaluatingcollaborationcompetition",
+    title: "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
+    authors:
+      "Kunlun Zhu, Hongyi Du, Zhaochen Hong, Xiaocheng Yang, Shuyi Guo, Zhe Wang, Zhenhailong Wang, Cheng Qian, Xiangru Tang, Heng Ji, Jiaxuan You",
+    year: "2025",
+    venue: "Preprint",
+    links: {
+      paper: "https://arxiv.org/abs/2503.01935",
+      code: "https://github.com/MultiagentBench/MARBLE",
+      thread: "https://x.com/Kunlun_Zhu/status/1897123371047088459",
+      contact: "mailto:kunlunz2@illinois.edu",
+    },
+    files: {
+    },
+    tags: ["LLM", "Agent"],
+  },
+  {
     key: "feng2024graphrouter",
     title: "Graphrouter: A graph-based router for llm selections",
     authors: "Tao Feng, Yanzhen Shen, Jiaxuan You",
