@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="deft.jpeg" alt="logo" width="200"></img>
+<img src="./deft.jpeg" alt="logo" width="200"></img>
 </div>
 
 --------------------------------------------------------------------------------
@@ -15,5 +15,5 @@ Large language models (LLMs) are increasingly employed for complex tasks that pr
 
 ## DeFT Overview
 <div align="center">
-<img src="DeFT_overview.jpg" alt="overview" width="95%"></img>
+<img src="./DeFT_overview.jpg" alt="overview" width="95%"></img>
 </div>
