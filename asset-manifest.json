@@ -1,33 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.8ecc5890.css",
-    "main.js": "/static/js/main.e97b410f.js",
+    "main.js": "/static/js/main.102104d9.js",
     "static/js/787.1208c4b5.chunk.js": "/static/js/787.1208c4b5.chunk.js",
     "static/media/PeixuanHan.jpg": "/static/media/PeixuanHan.eae2ca8a07c9248dbe07.jpg",
     "static/media/ZiruiCheng.jpg": "/static/media/ZiruiCheng.d9c6e6bbde77fc923c34.jpg",
     "static/media/researchtown.pdf": "/static/media/researchtown.9ecd418d3df975f521d5.pdf",
     "static/media/SourceSans3-VariableFont_wght.ttf": "/static/media/SourceSans3-VariableFont_wght.f0bd6d1942b9ef5e8026.ttf",
+    "static/media/DeFT_overview.jpg": "/static/media/DeFT_overview.2f6967c2b22f7d906cf6.jpg",
     "static/media/JiaxuanYou.jpg": "/static/media/JiaxuanYou.d1226405a68da9c3b0c3.jpg",
     "static/media/HaofeiYu.jpg": "/static/media/HaofeiYu.3d69f85ecd7fcc5835c9.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/siebel.jpg": "/static/media/siebel.34a67847f8741432331d.jpg",
     "static/media/researchtown.png": "/static/media/researchtown.66e02108052bae5e2c1a.png",
     "static/media/Alma.jpg": "/static/media/Alma.f9ca0302ee7d6eada3c4.jpg",
+    "static/media/deft.jpeg": "/static/media/deft.baf70bc21f824938a5bf.jpeg",
     "static/media/YanruQu.jpg": "/static/media/YanruQu.658ecb430f6a40d07b4b.jpg",
     "static/media/JinweiYao.jpg": "/static/media/JinweiYao.0d7b32ec3a957a359705.jpg",
     "static/media/ZhaochenHong.jpeg": "/static/media/ZhaochenHong.9959c8a8583fc1e8a66b.jpeg",
     "static/media/MatteoBoffa.jpeg": "/static/media/MatteoBoffa.1d6f275f7b6dc919acb6.jpeg",
-    "static/media/deft.md": "/static/media/deft.27ec488278aa119bef60.md",
+    "static/media/deft.md": "/static/media/deft.3e0e44bcc34de2bdaaa3.md",
     "static/media/graphrouter.md": "/static/media/graphrouter.1c04172b2f9dbdb1a798.md",
     "static/media/researchtown.md": "/static/media/researchtown.06422f19e5526c6475c1.md",
     "index.html": "/index.html",
     "static/media/researchtown.bib": "/static/media/researchtown.f7e72175a3f475d8ef03.bib",
     "main.8ecc5890.css.map": "/static/css/main.8ecc5890.css.map",
-    "main.e97b410f.js.map": "/static/js/main.e97b410f.js.map",
+    "main.102104d9.js.map": "/static/js/main.102104d9.js.map",
     "787.1208c4b5.chunk.js.map": "/static/js/787.1208c4b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ecc5890.css",
-    "static/js/main.e97b410f.js"
+    "static/js/main.102104d9.js"
   ]
 }
