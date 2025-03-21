@@ -14,6 +14,11 @@ const news = [
   {
     time: "Jan 2025",
     event:
+      "🔥 DeFT is accepted at ICLR 2025. [[Paper](https://arxiv.org/abs/2404.00242)] ",
+  },
+  {
+    time: "Jan 2025",
+    event:
       "🔥 GrouphRouter is accepted at ICLR 2025. [[Paper](https://arxiv.org/abs/2410.03834)] [[Website](/publications/feng2024graphrouter)]",
   },
   {
