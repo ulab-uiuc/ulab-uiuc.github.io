@@ -35,6 +35,8 @@ const ms_students = [
   },
   {
     name: "Yexin Wu",
+    img: require("../assets/people/YexinWu.jpg"),
+    link: "https://librowu.github.io/",
   },
   {
     name: "Jinwei Yao",
