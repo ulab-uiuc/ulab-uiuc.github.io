@@ -34,11 +34,25 @@ const publications = [
   },
   {
     key: "feng2024graphrouter",
-    title: "Graphrouter: A graph-based router for llm selections",
+    title: "GraphRouter: A graph-based router for llm selections",
     authors: "Tao Feng, Yanzhen Shen, Jiaxuan You",
     year: "2025",
     links: {
-      paper: "https://arxiv.org/abs/2410.03834",
+      paper: "https://openreview.net/forum?id=eU39PDsZtT",
+    },
+    files: {
+      markdown: require("../assets/publications/feng2024graphrouter/graphrouter.md"),
+    },
+    venue: "ICLR 2025",
+    tags: ["LLM", "Graph"],
+  },
+  {
+    key: "feng2024grapheval",
+    title: "GraphEval: A Lightweight Graph-Based LLM Framework for Idea Evaluation",
+    authors: "Tao Feng*, Yihang Sun*, and Jiaxuan You",
+    year: "2025",
+    links: {
+      paper: "https://openreview.net/forum?id=5RUM1aIdok&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)",
     },
     files: {
       markdown: require("../assets/publications/feng2024graphrouter/graphrouter.md"),
