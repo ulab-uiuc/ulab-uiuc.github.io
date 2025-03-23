@@ -9,6 +9,8 @@ const principal_investigator = [
 const phd_students = [
   {
     name: "Tao Feng",
+    img: require("../assets/people/Tao Feng.jpg"),
+    link: "https://ft2023.github.io/taofeng.github.io/"
   },
   {
     name: "Peixuan Han",
