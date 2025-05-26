@@ -67,6 +67,9 @@ const visiting_students = [
   },
   {
     name: "Zijia Liu",
+    img: require("../assets/people/ZijiaLiu.jpeg"),
+    link: "https://www.linkedin.com/in/zijia-liu-771137334/",
+    description: "Ph.D. student",
   },
 ];
 
