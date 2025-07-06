@@ -34,6 +34,7 @@ const ms_students = [
   {
     name: "Zhaochen Hong",
     img: require("../assets/people/ZhaochenHong.jpeg"),
+    link: "https://zhaochenhong42.github.io/",
   },
   {
     name: "Yexin Wu",
