@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8ecc5890.css",
-    "main.js": "/static/js/main.80d8fc0e.js",
+    "main.js": "/static/js/main.3374a3d2.js",
     "static/js/787.1208c4b5.chunk.js": "/static/js/787.1208c4b5.chunk.js",
     "static/media/PeixuanHan.jpg": "/static/media/PeixuanHan.52d2f5e337e10c187d7a.jpg",
+    "static/media/SiqiZhu.PNG": "/static/media/SiqiZhu.35aabd5fa3b08a682975.PNG",
     "static/media/ZiruiCheng.jpg": "/static/media/ZiruiCheng.d9c6e6bbde77fc923c34.jpg",
     "static/media/researchtown.pdf": "/static/media/researchtown.9ecd418d3df975f521d5.pdf",
     "static/media/SourceSans3-VariableFont_wght.ttf": "/static/media/SourceSans3-VariableFont_wght.f0bd6d1942b9ef5e8026.ttf",
@@ -27,11 +28,11 @@
     "index.html": "/index.html",
     "static/media/researchtown.bib": "/static/media/researchtown.f7e72175a3f475d8ef03.bib",
     "main.8ecc5890.css.map": "/static/css/main.8ecc5890.css.map",
-    "main.80d8fc0e.js.map": "/static/js/main.80d8fc0e.js.map",
+    "main.3374a3d2.js.map": "/static/js/main.3374a3d2.js.map",
     "787.1208c4b5.chunk.js.map": "/static/js/787.1208c4b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ecc5890.css",
-    "static/js/main.80d8fc0e.js"
+    "static/js/main.3374a3d2.js"
   ]
 }
