@@ -28,6 +28,11 @@ const phd_students = [
     img: require("../assets/people/HaofeiYu.jpg"),
     link: "https://haofeiyu.me",
   },
+  {
+    name: "Siqi Zhu",
+    img: require("../assets/people/SiqiZhu.jpg"),
+    link: "https://sites.google.com/view/siqizhu/home",
+  },
 ];
 
 const ms_students = [
