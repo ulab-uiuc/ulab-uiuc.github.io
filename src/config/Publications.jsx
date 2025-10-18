@@ -1,5 +1,22 @@
 const publications = [
   {
+    key: "peixuan2025tomap",
+    title: "ToMAP: Training Opponent-Aware LLM Persuaders with Theory of Mind",
+    authors:
+      "Peixuan Han, Zijia Liu, Jiaxuan You",
+    year: "2025",
+    venue: "Preprint",
+    links: {
+      paper: "https://arxiv.org/pdf/2505.22961",
+      code: "https://github.com/ulab-uiuc/ToMAP",
+      contact: "mailto:ph16@illinois.edu",
+    },
+    files: {
+      markdown: require("../assets/publications/peixuan2025tomap/tomap.md"),
+    },
+    tags: ["LLM", "Agent"],
+  },
+  {
     key: "zhu2025multiagentbenchevaluatingcollaborationcompetition",
     title: "MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents",
     authors:
