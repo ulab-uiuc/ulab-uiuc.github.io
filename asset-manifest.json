@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8ecc5890.css",
-    "main.js": "/static/js/main.3374a3d2.js",
+    "main.js": "/static/js/main.5f3bddec.js",
     "static/js/787.1208c4b5.chunk.js": "/static/js/787.1208c4b5.chunk.js",
     "static/media/PeixuanHan.jpg": "/static/media/PeixuanHan.52d2f5e337e10c187d7a.jpg",
     "static/media/SiqiZhu.PNG": "/static/media/SiqiZhu.35aabd5fa3b08a682975.PNG",
@@ -11,6 +11,7 @@
     "static/media/DeFT_overview.jpg": "/static/media/DeFT_overview.2f6967c2b22f7d906cf6.jpg",
     "static/media/JiaxuanYou.jpg": "/static/media/JiaxuanYou.d1226405a68da9c3b0c3.jpg",
     "static/media/HaofeiYu.jpg": "/static/media/HaofeiYu.3d69f85ecd7fcc5835c9.jpg",
+    "static/media/main_fig.png": "/static/media/main_fig.b9aa518316670e97731d.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/siebel.jpg": "/static/media/siebel.34a67847f8741432331d.jpg",
     "static/media/researchtown.png": "/static/media/researchtown.66e02108052bae5e2c1a.png",
@@ -23,16 +24,17 @@
     "static/media/ZhaochenHong.jpeg": "/static/media/ZhaochenHong.9959c8a8583fc1e8a66b.jpeg",
     "static/media/MatteoBoffa.jpeg": "/static/media/MatteoBoffa.1d6f275f7b6dc919acb6.jpeg",
     "static/media/deft.md": "/static/media/deft.3e0e44bcc34de2bdaaa3.md",
+    "static/media/tomap.md": "/static/media/tomap.f6895f7ea1597b2201b0.md",
     "static/media/graphrouter.md": "/static/media/graphrouter.1c04172b2f9dbdb1a798.md",
     "static/media/researchtown.md": "/static/media/researchtown.06422f19e5526c6475c1.md",
     "index.html": "/index.html",
     "static/media/researchtown.bib": "/static/media/researchtown.f7e72175a3f475d8ef03.bib",
     "main.8ecc5890.css.map": "/static/css/main.8ecc5890.css.map",
-    "main.3374a3d2.js.map": "/static/js/main.3374a3d2.js.map",
+    "main.5f3bddec.js.map": "/static/js/main.5f3bddec.js.map",
     "787.1208c4b5.chunk.js.map": "/static/js/787.1208c4b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ecc5890.css",
-    "static/js/main.3374a3d2.js"
+    "static/js/main.5f3bddec.js"
   ]
 }
