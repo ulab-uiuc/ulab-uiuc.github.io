@@ -12,6 +12,6 @@ Large language models (LLMs) have shown promising potential in persuasion, but e
 
 
 
-<img src="./main_fig.png" style="zoom:50%;" 
+<img src="./main_fig.png" style="zoom:30%;" 
 />
 

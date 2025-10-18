@@ -10,22 +10,13 @@ Reinforcement learning with verifiable rewards has significantly advanced reason
 
 ## Formulation
 
-$$
-R_{\text{SA-GRPO}}(q,a_i,gt) = R_{\text{VR}} + \alpha R_{\text{SA}}, \quad
-R_{\text{SA}} = \operatorname{clip}\!\left(
-\frac{\operatorname{ppl}(a_i) - \operatorname{ppl}(a_i|q)}{\operatorname{ppl}(a_i)},\,-1,\,1
-\right)
-$$
-$$
-\quad
-\operatorname{ppl}(a) = e^{-\frac{1}{|a|}\sum_{j=1}^{|a|}\log P(a_j|a_{1...j-1})}, \quad
-\operatorname{ppl}(a|q) = e^{-\frac{1}{|a|}\sum_{j=1}^{|a|}\log P(a_j|q,a_{1...j-1})}$$
-
+<img src="./formula.png" style="zoom:20%;" 
+/>
 
 ## Results
 
-<img src="./contours.png" style="zoom:50%;" 
+<img src="./contours.png" style="zoom:30%;" 
 />
 
-<img src="./table.png" style="zoom:50%;" 
+<img src="./table.png" style="zoom:30%;" 
 />
