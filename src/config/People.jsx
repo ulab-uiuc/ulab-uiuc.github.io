@@ -28,13 +28,18 @@ const phd_students = [
     img: require("../assets/people/HaofeiYu.jpg"),
     link: "https://haofeiyu.me",
   },
+  {
+    name: "Siqi Zhu",
+    img: require("../assets/people/SiqiZhu.PNG"),
+    link: "https://sites.google.com/view/siqizhu/home",
+  },
 ];
 
 const ms_students = [
   {
     name: "Zhaochen Hong",
     img: require("../assets/people/ZhaochenHong.jpeg"),
-    link: "https://timsanders256.github.io/",
+    link: "https://zhaochenhong42.github.io/",
   },
   {
     name: "Yexin Wu",
@@ -68,7 +73,7 @@ const visiting_students = [
   {
     name: "Zijia Liu",
     img: require("../assets/people/ZijiaLiu.jpeg"),
-    link: "https://www.linkedin.com/in/zijia-liu-771137334/",
+    link: "https://m-serious.github.io/",
     description: "Ph.D. student",
   },
 ];
