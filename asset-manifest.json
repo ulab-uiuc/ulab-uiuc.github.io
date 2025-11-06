@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8ecc5890.css",
-    "main.js": "/static/js/main.d842fded.js",
+    "main.js": "/static/js/main.e0e0f6fa.js",
     "static/js/787.1208c4b5.chunk.js": "/static/js/787.1208c4b5.chunk.js",
-    "static/media/PeixuanHan.jpg": "/static/media/PeixuanHan.52d2f5e337e10c187d7a.jpg",
     "static/media/SiqiZhu.PNG": "/static/media/SiqiZhu.35aabd5fa3b08a682975.PNG",
     "static/media/ZiruiCheng.jpg": "/static/media/ZiruiCheng.d9c6e6bbde77fc923c34.jpg",
     "static/media/researchtown.pdf": "/static/media/researchtown.9ecd418d3df975f521d5.pdf",
@@ -27,19 +26,17 @@
     "static/media/formula.png": "/static/media/formula.572333920cac809ed409.png",
     "static/media/ZhaochenHong.jpeg": "/static/media/ZhaochenHong.9959c8a8583fc1e8a66b.jpeg",
     "static/media/MatteoBoffa.jpeg": "/static/media/MatteoBoffa.1d6f275f7b6dc919acb6.jpeg",
-    "static/media/sar.md": "/static/media/sar.4be01dadb7d085a52382.md",
     "static/media/deft.md": "/static/media/deft.3e0e44bcc34de2bdaaa3.md",
-    "static/media/tomap.md": "/static/media/tomap.b0dd6e1992989fc43ae9.md",
     "static/media/graphrouter.md": "/static/media/graphrouter.1c04172b2f9dbdb1a798.md",
     "static/media/researchtown.md": "/static/media/researchtown.06422f19e5526c6475c1.md",
     "index.html": "/index.html",
     "static/media/researchtown.bib": "/static/media/researchtown.f7e72175a3f475d8ef03.bib",
     "main.8ecc5890.css.map": "/static/css/main.8ecc5890.css.map",
-    "main.d842fded.js.map": "/static/js/main.d842fded.js.map",
+    "main.e0e0f6fa.js.map": "/static/js/main.e0e0f6fa.js.map",
     "787.1208c4b5.chunk.js.map": "/static/js/787.1208c4b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ecc5890.css",
-    "static/js/main.d842fded.js"
+    "static/js/main.e0e0f6fa.js"
   ]
 }
