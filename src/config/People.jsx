@@ -61,6 +61,11 @@ const ms_students = [
     img: require("../assets/people/ZiruiCheng.jpg"),
     link: "https://chengzr01.github.io/",
   },
+  {
+    name: "Yihang Sun",
+    img: require("../assets/people/YihangSun.jpg"),
+    link: "https://plotbaelish.github.io/",
+  },
 ];
 
 const visiting_students = [
