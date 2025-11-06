@@ -12,12 +12,12 @@ const phd_students = [
     img: require("../assets/people/Tao Feng.jpg"),
     link: "https://ft2023.github.io/taofeng.github.io/"
   },
-  {
-    name: "Peixuan Han",
-    img: require("../assets/people/PeixuanHan.jpg"),
-    link: "https://hanpx20.github.io/",
-    description: "Rotating Student",
-  },
+  // {
+  //   name: "Peixuan Han",
+  //   img: require("../assets/people/PeixuanHan.jpg"),
+  //   link: "https://hanpx20.github.io/",
+  //   description: "Rotating Student",
+  // },
   {
     name: "Yanru Qu",
     img: require("../assets/people/YanruQu.jpg"),
