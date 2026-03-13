@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { about, highlights, news, impacts } from "../config/About";
+import { about } from "../config/About";
 
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
