@@ -18,6 +18,11 @@ const phd_students = [
     description: "Coadvised w/ [Prof. Ge Liu](https://www.mit.edu/~geliu/)",
   },
   {
+    name: "Peixuan Han",
+    img: require("../assets/people/PeixuanHan.jpg"),
+     link: "https://hanpx20.github.io/",
+  },
+  {
     name: "Haofei Yu",
     img: require("../assets/people/HaofeiYu.jpg"),
     link: "https://haofeiyu.me",
