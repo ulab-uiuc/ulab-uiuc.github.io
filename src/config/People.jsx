@@ -29,8 +29,7 @@ const phd_students = [
   },
   {
     name: "Siqi Zhu",
-    img: require("../assets/people/SiqiZhu.PNG"),
-    link: "https://sites.google.com/view/siqizhu/home",
+    link: "https://zhusq20.github.io/",
   },
 ];
 
