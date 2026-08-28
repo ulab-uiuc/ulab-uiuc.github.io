@@ -50,14 +50,14 @@ const ms_students = [
     link: "https://kivi-yao.github.io/",
   },
   {
-    name: "Kunlun Zhu",
-    img: require("../assets/people/KunlunZhu.jpeg"),
-    link: "https://kunlun-zhu.github.io/",
-  },
-  {
     name: "Yihang Sun",
     img: require("../assets/people/YihangSun.jpg"),
     link: "https://plotbaelish.github.io/",
+  },
+  {
+    name: "Hongyi Du",
+    img: require("../assets/people/HongyiDu.jpg"),
+    link: "https://hongyi-du.github.io/",
   },
 ];
 
@@ -77,6 +77,11 @@ const visiting_students = [
 ];
 
 const alumni = [
+  {
+    name: "Kunlun Zhu",
+    link: "https://kunlun-zhu.github.io/",
+    description: "Computer Science Ph.D. student at UIUC",
+  },
   {
     name: "Yihang Sun",
     description: "Undergraduate at Peking University",
